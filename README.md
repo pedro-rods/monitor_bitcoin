@@ -9,7 +9,7 @@ This lightweight script uses Ruby’s built-in `net/http` and `json` libraries t
 ## 💻 How It Works
 
 The script sends a request to:
-https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd`
 
 It then parses the JSON response and displays the current BTC price in USD.
 
@@ -23,8 +23,8 @@ It then parses the JSON response and displays the current BTC price in USD.
 1. Clone this repository or download the script.
 
 2. Run the script:
-   ruby bitcoin_price.rb
+ `ruby bitcoin_price.rb`
    
-3. Output example:
+4. Output example:
 
-Current Bitcoin price in USD: $115149.0
+`Current Bitcoin price in USD: $115149.0`
